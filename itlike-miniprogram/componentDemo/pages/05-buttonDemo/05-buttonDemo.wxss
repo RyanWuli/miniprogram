@@ -1,0 +1,10 @@
+/* pages/05-buttonDemo/05-buttonDemo.wxss */
+
+.reg {
+  height: 100rpx;
+  width: 100rpx;
+}
+
+button::after {
+  border: none;
+}

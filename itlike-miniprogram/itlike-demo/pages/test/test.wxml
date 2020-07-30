@@ -1,0 +1,5 @@
+<!--pages/test/test.wxml-->
+
+<!-- bindtap="_handlerTap" 绑定方法 -->
+<text bindtap="_handlerTap" class="test">{{name}}</text> 
+<c-test/>

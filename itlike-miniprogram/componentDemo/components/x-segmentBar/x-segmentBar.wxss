@@ -1,0 +1,33 @@
+/* components/x-segmentBar/x-segmentBar.wxss */
+
+.segmentBar {
+  height: 100rpx;
+  /* background-color: orange; */
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.segmentItem {
+  height: 100%;
+  /* border: orchid 1rpx solid; */
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* line-height: 80rpx; */
+}
+.segmentItem .title {
+  font-size: 30rpx;
+  color: #666;
+  font-weight: bold;
+}
+.segmentItem .subTitle {
+  font-size: 26rpx;
+  color: #999;
+}
+.active .title {
+  color: #08b0f3;
+}
+.active .subTitle {
+  color: skyblue;
+}

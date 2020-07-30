@@ -1,0 +1,6 @@
+<!--pages/08-moveDemo/08-moveDemo.wxml-->
+
+<movable-area class="ma">
+  <movable-view class="mv" direction="all" inertia friction="0" damping="22" x="100rpx" y="100rpx">xxxxx</movable-view>
+  <movable-view class="mv" direction="all" inertia friction="0" damping="22" x="100rpx" y="100rpx">itlike</movable-view>
+</movable-area>

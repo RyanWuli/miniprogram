@@ -1,0 +1,35 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#d4237a",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#707070",
+    "selectedColor":"#d4237a",
+    "list": [{
+      "pagePath": "pages/teacherList/teacherList",
+      "text": "讲师列表",
+      "iconPath": "/assets/images/teacher_un.png",
+      "selectedIconPath": "/assets/images/teacher_sel.png"
+    },{
+      "pagePath": "pages/courseList/courseList",
+      "text": "课程列表",
+      "iconPath": "/assets/images/course_un.png",
+      "selectedIconPath": "/assets/images/course_sel.png"
+    }]
+  },
+  "pages": [
+    "pages/teacherList/teacherList",
+    "pages/courseList/courseList",
+    "pages/01-wxml-dataBind/01-wxml-dataBind",
+    "pages/02-wxml-eventBind/02-wxml-eventBind",
+    "pages/03-wxml-demo/03-wxml-demo",
+    "pages/04-wxml-demo2/04-wxml-demo2",
+    "pages/05-wxml-template/05-wxml-template",
+    "pages/06-wxml-include/06-wxml-include",
+    "pages/06-wxml-wxs/06-wxml-wxs",
+    "pages/07-wxss-study/07-wxss-study",
+    "pages/08-wxui/08-wxui"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

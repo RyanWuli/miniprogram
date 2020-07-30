@@ -1,0 +1,10 @@
+<!--pages/07-wxss-study/07-wxss-study.wxml-->
+
+<view style="height: 200px; width: 200px; background-color: orange">測試內聯樣式</view>
+<view class="pageStyle globalStyle" style="color: white">測試頁面樣式</view>
+<view class="globalStyle" style="color: red">全局樣式-app.wxss</view>
+
+<view class="test">
+  <text class="left">左</text>
+  <text class="right">右</text>
+</view>

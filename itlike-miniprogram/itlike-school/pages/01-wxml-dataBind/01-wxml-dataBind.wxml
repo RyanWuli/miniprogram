@@ -1,0 +1,83 @@
+<!--pages/01-wxml-dataBind/01-wxml-dataBind.wxml-->
+<!-- 直接读取 data -->
+<!-- <view class="courseItem {{isStar ? 'isStar' : ''}}">
+  <view class="fm">
+    <image src="{{courseImg}}" mode="aspectFill"></image>
+  </view>
+  <view class="desc">
+    <text class="courseTitle">{{courseTitle}}</text>
+    <text class="courseTeacher">讲师：{{courseTeacher}}  <text class="isStar" wx:if="{{isStar}}">星级讲师</text></text>
+    <text class="courseStudyCount">学习人数：{{courseStudyCount >= 1000 ? courseStudyCount / 1000 + 'k' : courseStudyCount}} 人</text>
+  </view>
+</view> -->
+
+<!-- 读取数组中的某个对象值 -->
+<!-- <view class="courseItem {{courseItem[1].isStar ? 'isStar' : ''}}">
+  <view class="fm">
+    <image src="{{courseItem[1].courseImg}}" mode="aspectFill"></image>
+  </view>
+  <view class="desc">
+    <text class="courseTitle">{{courseItem[1].courseTitle}}</text>
+    <text class="courseTeacher">讲师：{{courseItem[1].courseTeacher}}  <text class="isStar" wx:if="{{courseItem[1].isStar}}">星级讲师</text></text>
+    <text class="courseStudyCount">学习人数：{{courseItem[1].courseStudyCount >= 1000 ? courseItem[1].courseStudyCount / 1000 + 'k' : courseItem[1].courseStudyCount}} 人</text>
+  </view>
+</view> -->
+
+<!-- 遍历数组中的对象值 -->
+<block wx:for="{{courseItem}}" wx:key="id">
+	<!-- wx:for 遍历数组，用 item 代表数组中的循环对象, index 代表数组中对应的下标，wx:for-index,wx:for-item 改变默认的的 item 和 index 的属性名称 -->
+	<view class="courseItem {{item.isStar ? 'isStar' : ''}}">
+		<view class="fm">
+			<image src="{{item.courseImg}}" mode="aspectFill"></image>
+		</view>
+		<view class="desc">
+			<text class="courseTitle">{{item.courseTitle}}</text>
+			<text class="courseTeacher">讲师：{{item.courseTeacher}}  <text class="isStar" wx:if="{{item.isStar}}">星级讲师</text></text>
+			<!-- <text class="courseStudyCount">学习人数：{{item.courseStudyCount >= 1000 ? item.courseStudyCount / 1000 + 'k' : item.courseStudyCount}} 人</text> -->
+			<text class="courseStudyCount">学习人数：{{numTool.parseNum(item.courseStudyCount)}} 人</text>
+			<!-- <text>{{index}}</text> -->
+		</view>
+	</view>
+</block>
+
+<!-- 演示 wx:key 作用 -->
+<block wx:for="{{testKeyData}}" wx:key="*this">
+	<switch />
+	<text>{{item}}</text>
+</block>
+<button bindtap="_handleTap">点击添加</button>
+
+
+
+<!-- <view wx:if="{{score == 100}}">满分</view>
+<view wx:elif="{{score >= 90}}">优秀</view>
+<view wx:elif="{{score >= 80}}">良好</view>
+<view wx:elif="{{score >= 60}}">及格</view>
+<view wx:else>不及格</view>
+
+<block wx:if="{{score >= 60}}">
+  <view>及格</view>
+  <view>奖励一个棒棒糖</view>
+</block>
+<block wx:else>
+  <view>不及格</view>
+  <view>奖励一个搓衣板</view>
+</block>
+<view hidden="trur">hidden 测试</view> -->
+
+<wxs module="numTool">
+  function parseNum (count) {
+    if (count < 1000) {
+      return count
+    }
+    if (count >= 1000 && count < 10000) {
+      return (count / 1000).toFixed(2) + 'k'
+    }
+    if (count >= 10000 && count < 100000000) {
+      return (count / 1000).toFixed(2) + 'w'
+    }
+  }
+  module.exports = {
+    parseNum: parseNum
+  }
+</wxs>

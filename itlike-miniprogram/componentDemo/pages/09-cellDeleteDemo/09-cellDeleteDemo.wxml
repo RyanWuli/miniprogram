@@ -1,0 +1,8 @@
+<!--pages/09-cellDeleteDemo/09-cellDeleteDemo.wxml-->
+
+<view class="cell">
+  <movable-area class="ma">
+    <movable-view class="mv" direction="horizontal" x="{{isOpen ? '-100rpx' : '0'}}" bindtouchstart="_handlerStart" bindtouchend="_handlerEnd">勒是一个 cell</movable-view>
+  </movable-area>
+  <button class="delBtn" type="warn">删除</button>
+</view>

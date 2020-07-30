@@ -1,0 +1,28 @@
+/* pages/07-wxss-study/07-wxss-study.wxss */
+.pageStyle {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  color: yellowgreen;
+}
+
+.test {
+  height: 100rpx;
+  width: 750rpx;
+  background-color: palevioletred;
+}
+
+.test text {
+  height: 100rpx;
+  width: 100rpx;
+  background-color: yellowgreen;
+}
+.left {
+  font-size: 40rpx;
+  float: left;
+
+}
+.right {
+  float: right;
+  font-size: 20px;
+}

@@ -1,0 +1,47 @@
+/* pages/01-wxml-dataBind/01-wxml-dataBind.wxss */
+
+.courseItem{
+  display: flex;
+  border-bottom: 5px solid red;
+}
+.courseItem.isStar {
+  border-bottom-color: gold;
+}
+.fm {
+  height: 80px;
+  width: 140px;
+  /* background-color: orange; */
+  margin: 20px; /* 上右下左全是10px */
+  margin-right: 0;
+}
+.fm image {
+  height: 100%;
+  width: 100%;
+}
+.desc {
+  flex: 1;
+  /* background-color: cyan; */
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.desc text {
+  font-size: 13px;
+}
+.desc > text:first-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+.desc .isStar {
+  color: tomato;
+  font-style: italic;
+}
+.desc > text:nth-child(2) {
+  color: gray;
+}
+.desc > text:last-child {
+  color: red;
+}

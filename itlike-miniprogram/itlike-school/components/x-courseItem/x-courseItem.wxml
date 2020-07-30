@@ -1,0 +1,13 @@
+<!--components/x-courseItem/x-courseItem.wxml-->
+<navigator url="/pages/01-wxml-dataBind/01-wxml-dataBind">
+	<view class="courseItem">
+		<view class="fm">
+			<image src="/assets/images/course.png" mode="aspectFill"></image>
+		</view>
+		<view class="desc">
+			<text class="courseTitle">Python-玩转爬虫系列</text>
+			<text class="courseTeacher">讲师：撩课-张益达</text>
+			<text class="courseStudyCount">学习人数：100人</text>
+		</view>
+	</view>
+</navigator>

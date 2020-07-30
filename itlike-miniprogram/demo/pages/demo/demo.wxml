@@ -1,0 +1,8 @@
+<!--pages/demo.wxml-->
+<text>pages/demo.wxml</text>
+
+<scroll-view class="box" scroll-x="true" >
+  <view class="box-item" >1</view>
+  <view class="box-item" >2</view>
+  <view class="box-item" >3</view>
+</scroll-view>

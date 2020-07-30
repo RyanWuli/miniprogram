@@ -1,0 +1,13 @@
+<!--pages/07-swiperDemo/07-swiperDemo.wxml-->
+
+<swiper indicator-dots indicator-color="white" indicator-active-color="tomato" autoplay circular>
+  <swiper-item>
+    <image class="lbImg" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1283277041,1349666575&fm=26&gp=0.jpg" mode="aspectFit" bindtap="_handlerTap"></image>
+  </swiper-item>
+  <swiper-item>
+    <image class="lbImg" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=4127945947,3349255734&fm=26&gp=0.jpg" mode="aspectFit"></image>
+  </swiper-item>
+  <swiper-item>
+    <image class="lbImg" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2997965245,1259755501&fm=26&gp=0.jpg" mode="aspectFit"></image>
+  </swiper-item>
+</swiper>

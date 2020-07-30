@@ -1,0 +1,17 @@
+<!--pages/05-buttonDemo/05-buttonDemo.wxml-->
+
+<button>登錄</button>
+<button class="reg" size="mini">注册</button>
+<button type="primary">查看详情</button>
+<button type="warn">删除</button>
+
+<button type="primary" plain="{{true}}">查看详情</button>
+<button type="warn" plain="{{true}}">删除</button>
+
+<button type="primary" disabled="{{true}}">查看详情</button>
+<button type="primary" plain="{{true}}" disabled="{{true}}">查看详情</button>
+
+<button type="primary" disabled="{{true}}" loading="true">登录</button>
+<button type="primary" plain="{{true}}" disabled="{{true}}" loading>登录</button>
+
+<button type="primary" open-type="getUserInfo" bindgetuserinfo="_getUserInfo">登录</button>

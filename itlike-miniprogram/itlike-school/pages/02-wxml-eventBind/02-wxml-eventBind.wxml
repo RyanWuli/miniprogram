@@ -1,0 +1,54 @@
+<!--pages/02-wxml-eventBind/02-wxml-eventBind.wxml-->
+<!-- <text id="one" bindtap="_handlerTap">绑定事件</text>
+<text id="two" bindtap="_handlerTap">绑定事件2</text> -->
+
+<!-- 冒泡绑定 -->
+<!-- <view id="one" class="one" bindtap="_handlerOne">
+  one
+  <view id="two" class="two" bindtap="_handlerTwo">
+    two
+    <view id="three" class="three" bindtap="_handlerThree">three</view>
+  </view>
+</view> -->
+
+<!-- 不冒泡绑定 catch -->
+<!-- <view id="one" class="one" bindtap="_handlerOne">
+  one
+  <view id="two" class="two" catchtap="_handlerTwo">
+    two
+    <view id="three" class="three" bindtap="_handlerThree">three</view>
+  </view>
+</view> -->
+
+<!-- capture-bind 捕获阶段处理，和冒泡执行的顺序就是相反的 -->
+<!-- <view id="one" class="one" capture-bind:tap="_handlerOne">
+  one
+  <view id="two" class="two" capture-bind:tap="_handlerTwo">
+    two
+    <view id="three" class="three" capture-bind:tap="_handlerThree">three</view>
+  </view>
+</view> -->
+
+<!-- capture-catch 捕获阶段并且阻止冒泡 -->
+<view id="one" class="one" capture-bind:tap="_handlerOne">
+  one
+  <view id="two" class="two" capture-catch:tap="_handlerTwo">
+    two
+    <view id="three" class="three" capture-bind:tap="_handlerThree">three</view>
+  </view>
+</view>
+
+<!-- <view class="test" bind:tap="_handlerTap">
+  事件类型测试-tap
+</view>
+<view style="font-size:14px" class="test" bindlongpress="_handlerTap">
+  事件类型测试-longPress-触发短按相同的方法
+</view> -->
+
+<!-- <view class="test" bindlongpress="_handlerLongPress">
+  事件类型测试-longPress
+</view>
+
+<view class="test" bindtouchstart="_handlerTS" bindtouchmove="_handlerTM" bindtouchend="_handlerTE" bindtouchcancel="_handlerTC">
+  事件类型测试-touch 系列
+</view> -->

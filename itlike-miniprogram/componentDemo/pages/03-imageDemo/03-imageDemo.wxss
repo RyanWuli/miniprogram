@@ -1,0 +1,5 @@
+/* pages/03-imageDemo/03-imageDemo.wxss */
+image {
+  height: 300px;
+  width: 300px;
+}

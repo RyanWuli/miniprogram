@@ -1,0 +1,9 @@
+<!--pages/courseList/courseList.wxml-->
+
+<x-courseItem />
+<x-courseItem />
+<x-courseItem />
+<x-courseItem />
+<x-courseItem />
+<x-courseItem />
+<x-courseItem />

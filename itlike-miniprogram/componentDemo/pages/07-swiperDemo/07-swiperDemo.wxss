@@ -1,0 +1,6 @@
+/* pages/07-swiperDemo/07-swiperDemo.wxss */
+
+.lbImg {
+  width: 100%;
+  height: 100%;
+}

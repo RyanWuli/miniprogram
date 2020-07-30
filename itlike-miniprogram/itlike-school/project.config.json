@@ -1,0 +1,151 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": false,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": false,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.12.0",
+	"appid": "wx19bebd2cba7d7cc3",
+	"projectname": "itlike-school",
+	"cloudfunctionTemplateRoot": "",
+	"watchOptions": {
+		"ignore": []
+	},
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "teacher",
+					"pathName": "pages/teacherList/teacherList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "course",
+					"pathName": "pages/courseList/courseList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "01-wxml-数据绑定",
+					"pathName": "pages/01-wxml-dataBind/01-wxml-dataBind",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "事件绑定",
+					"pathName": "pages/02-wxml-eventBind/02-wxml-eventBind",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "03-事件绑定-案例",
+					"pathName": "pages/03-wxml-demo/03-wxml-demo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "04-事件绑定-案例2",
+					"pathName": "pages/04-wxml-demo2/04-wxml-demo2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "05-wxml-模板的使用",
+					"pathName": "pages/05-wxml-template/05-wxml-template",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "06-wxml-include",
+					"pathName": "pages/06-wxml-include/06-wxml-include",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "06-wxml-wxs",
+					"pathName": "pages/06-wxml-wxs/06-wxml-wxs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "07-wxss-study",
+					"pathName": "pages/07-wxss-study/07-wxss-study",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "08-wxui",
+					"pathName": "pages/08-wxui/08-wxui",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

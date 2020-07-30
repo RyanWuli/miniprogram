@@ -1,0 +1,7 @@
+<!--pages/05-wxml-template/05-wxml-template.wxml-->
+<text>wxml-模板的使用</text>
+
+<import src="/templates/itlike/itlike.wxml" />
+
+<!-- 使用模板 -->
+<template is="itlike" data="{{title: '撩课-Python', desc: '大数据+人工智能'}}"></template>

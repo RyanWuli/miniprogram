@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/01-viewDemo/01-viewDemo",
+    "pages/02-textDemo/02-textDemo",
+    "pages/03-imageDemo/03-imageDemo",
+    "pages/04-iconDemo/04-icomDemo",
+    "pages/05-buttonDemo/05-buttonDemo",
+    "pages/06-demo/06-demo",
+    "pages/07-swiperDemo/07-swiperDemo",
+    "pages/08-moveDemo/08-moveDemo",
+    "pages/09-cellDeleteDemo/09-cellDeleteDemo",
+    "pages/10-scrollviewDemo/10-scrollviewDemo",
+    "pages/11-customWidgetDemo/11-customWidgetDemo"
+  ],
+  "sitemapLocation": "sitemap46.json"
+}

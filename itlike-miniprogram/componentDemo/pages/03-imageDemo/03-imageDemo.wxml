@@ -1,0 +1,16 @@
+<!--pages/03-imageDemo/03-imageDemo.wxml-->
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<!-- <text>xxxxx</text> -->
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2631334549,246605465&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" />
+<image style="background-color: gray" src="/assets/images/u=3220049014,2849399810&fm=26&gp=0.jpg" mode="aspectFill" bindload="_handlerLoad" lazy-load="{{true}}" show-menu-by-longpress="{{true}}" />

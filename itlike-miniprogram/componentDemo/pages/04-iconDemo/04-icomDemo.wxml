@@ -1,0 +1,7 @@
+<!--pages/04-iconDemo/04-icomDemo.wxml-->
+<!-- <text>pages/04-iconDemo/04-icomDemo.wxml</text> -->
+
+<block wx:for="{{types}}" wx:key="*this">
+  <icon style="display:block" type="{{item}}" size="{{(index + 46) + 'rpx'}}" color="cyan"></icon>
+  <!-- <text>{{index + 23}}</text> -->
+</block>

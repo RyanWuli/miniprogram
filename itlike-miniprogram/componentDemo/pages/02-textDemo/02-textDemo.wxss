@@ -1,0 +1,27 @@
+/* pages/02-textDemo/02-textDemo.wxss */
+/* .one {
+  height: 100rpx;
+  width: 100rpx;
+  background-color: rebeccapurple;
+  display: inline-block;
+}
+
+view text {
+  display: block;
+} */
+
+view {
+  border: rebeccapurple 1rpx solid;
+}
+view > text {
+  display: block;
+}
+.name {
+  color: red;
+}
+.age {
+  color: green;
+}
+.orga {
+  color: blue;
+}

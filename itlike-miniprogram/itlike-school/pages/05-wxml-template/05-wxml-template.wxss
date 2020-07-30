@@ -1,0 +1,3 @@
+/* pages/05-wxml-template/05-wxml-template.wxss */
+
+@import "/templates/itlike/itlike.wxss"

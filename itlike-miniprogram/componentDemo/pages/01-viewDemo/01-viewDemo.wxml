@@ -1,0 +1,19 @@
+<!--pages/01-viewDemo/01-viewDemo.wxml-->
+
+<!-- hover-class -->
+<!-- <view hover-class="tap" hover-start-time="0" hover-stay-time="2000">1</view>
+<view>2</view>
+<view>3</view> -->
+
+<!-- hover-stop-propagation测试 -->
+<!-- <view class="one">1
+  <view class="two" hover-class="tap">2
+    <view class="three" hover-class="tap" hover-stop-propagation="{{true}}">
+      3
+    </view>
+  </view>
+</view> -->
+
+<view class="viewTest" hover-class="viewTap">这是一个 view 组件</view>
+
+

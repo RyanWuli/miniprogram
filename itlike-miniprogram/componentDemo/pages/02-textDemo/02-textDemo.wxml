@@ -1,0 +1,17 @@
+<!--pages/02-textDemo/02-textDemo.wxml-->
+<text class="one">1</text>
+<text>2</text>
+<text>3</text>
+
+<view>
+	<text space="ensp" selectable="{{true}}">撩課 學院</text>
+	<text space="emsp">撩課 學院</text>
+	<text space="nbsp">撩課 學院</text>
+  <text decode="{{true}}">撩課&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;學院</text>
+</view>
+
+<view>
+  <text>姓名：<text class="name">張益達</text></text>
+  <text>年齡：<text class="age" decode="{{true}}">32&nbsp;&nbsp;</text>歲</text>
+  <text>機構：<text class="orga">北京電影學院</text></text>
+</view>

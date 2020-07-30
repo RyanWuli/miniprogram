@@ -1,0 +1,11 @@
+<!--pages/11-customWidgetDemo/11-customWidgetDemo.wxml-->
+
+<!-- segmentBar 部分 -->
+<!-- <x-segmentBar segmentItems="{{items}}" bind:selectChange="_handlerSelectChange"/> -->
+
+<!-- 总体部分，整合 segementBar -->
+<x-segmentPane segmentItems="{{items}}" segment-cla="xs">
+  <block wx:for="{{details}}" wx:key="*this">
+    <view class="detail" slot="{{index}}">{{item}}</view>
+  </block>
+</x-segmentPane> 

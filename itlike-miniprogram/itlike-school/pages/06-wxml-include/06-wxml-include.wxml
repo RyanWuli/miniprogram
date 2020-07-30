@@ -1,0 +1,4 @@
+<!--pages/06-wxml-include/06-wxml-include.wxml-->
+<include src="wxml/header.wxml" />
+<text>中间部分内容</text>
+<include src="wxml/footer.wxml" />

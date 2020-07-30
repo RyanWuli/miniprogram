@@ -1,0 +1,10 @@
+
+.teacherContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.teacherContainer x-teacherItem {
+  margin: 10px 0; /* 顺序：上右下左，上下、左右可以只写一个 */
+}

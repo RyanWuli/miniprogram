@@ -1,0 +1,18 @@
+/* pages/demo.wxss */
+
+.box {
+  width:100vw;
+  height: 200rpx;
+  white-space: nowrap;        /*white-space 不能丢*/
+  border: 1px solid red;
+  box-sizing: border-box
+}
+
+
+.box-item {
+  width: 45%;
+  height:100%;
+  border:2rpx solid green;
+  box-sizing: border-box;
+  display: inline-block
+}

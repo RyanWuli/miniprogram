@@ -1,0 +1,15 @@
+<!--pages/courseList/courseList.wxml-->
+
+<!-- <x-courseItem id="1" data-title="第一个课程" bindtap="_handlerTap" />
+<x-courseItem id="2" data-title="第二个课程" bindtap="_handlerTap" />
+<x-courseItem id="3" data-title="第三个课程" bindtap="_handlerTap" />
+<x-courseItem id="4" data-title="第四个课程" bindtap="_handlerTap" />
+<x-courseItem id="5" data-title="第五个课程" bindtap="_handlerTap" /> -->
+
+<view bindtap="_handlerTap">
+	<x-courseItem id="1" data-title="第一个课程" />
+	<x-courseItem id="2" data-title="第二个课程" />
+	<x-courseItem id="3" data-title="第三个课程" />
+	<x-courseItem id="4" data-title="第四个课程" />
+	<x-courseItem id="5" data-title="第五个课程" />
+</view>

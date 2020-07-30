@@ -1,0 +1,13 @@
+<!--components/x-segmentPane/x-segmentPane.wxml-->
+
+<view class="segmentPane segment-cla">
+  <!-- selectChange="_handlerSelectChange" 监听自定义事件 D:\workplace\小程序\componentDemo\components\x-segmentBar\x-segmentBar.js 中的 this.triggerEvent("selectChange", {currentIdx: cid}) -->
+  <x-segmentBar id="x-sp-sb" segmentItems="{{segmentItems}}" bind:selectChange="_handlerSelectChange"/>
+  <swiper class="segmentContainer" circular current="{{index}}" bindchange="_handlerChange">
+    <block wx:for="{{segmentItems}}" wx:key="index">
+      <swiper-item>
+        <slot name="{{index}}"></slot>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

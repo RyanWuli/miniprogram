@@ -1,0 +1,7 @@
+
+function sum (num, no) {
+  return num + no;
+}
+module.exports = {
+  sum: sum
+}

@@ -1,0 +1,17 @@
+/* pages/02-wxml-eventBind/02-wxml-eventBind.wxss */
+
+.one {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+}
+.two {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+}
+.test,.three {
+  height: 100px;
+  width: 100px;
+  background-color: cyan;
+}

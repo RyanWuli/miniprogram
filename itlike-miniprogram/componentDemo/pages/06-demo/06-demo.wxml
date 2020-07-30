@@ -1,0 +1,33 @@
+<!--pages/06-demo/06-demo.wxml-->
+
+<view class="container">
+	<image class="header" src="/assets/images/itlike.png" />
+	<form bindsubmit="_handlerSubmit">
+		<view class="loginPane">
+			<view>
+				<text class="lk-font icon-Account"></text>
+				<input name="accountV" class="account" placeholder="请输入帐号" placeholder-style="color: #dcdcdc; font-size: 26rpx" bindinput="_handlerAccountInput"></input>
+				<icon type="{{isGood ? 'success' : 'warn'}}" size="36rpx"></icon>
+			</view>
+			<view>
+				<text class="lk-font icon-xxhdpiCombinedShape"></text>
+				<input name="passwordV" class="password" password="true" placeholder="请输入密码" placeholder-style="color: #dcdcdc; font-size: 26rpx" bindinput="_handlerPasswordInput"></input>
+				<icon size="36rpx" class="iconno"></icon>
+			</view>
+			<view class="select">
+        <checkbox-group name="rememberPwd" bindchange="_handlerRemember">
+          <checkbox color="tomato" value="1" checked="{{isRemember}}">记住密码</checkbox>
+        </checkbox-group>
+				<checkbox-group name="autoLogin" bindchange="_handlerAuto">
+          <checkbox color="tomato" value="1" checked="{{isAuto}}">自动登录</checkbox>
+        </checkbox-group>
+			</view>
+			<view>
+				<button type="primary" class="loginBtn" form-type="submit" disabled="{{!canLogin}}">登 录</button>
+			</view>
+			<view>
+				<button class="registerBtn">注 册</button>
+			</view>
+		</view>
+	</form>
+</view>

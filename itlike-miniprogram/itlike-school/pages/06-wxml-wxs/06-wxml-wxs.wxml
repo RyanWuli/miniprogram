@@ -1,0 +1,16 @@
+<!--pages/06-wxml-wxs/06-wxml-wxs.wxml-->
+<text>{{tool.testFun()}}</text>
+<view>{{tools.sum(6, 6)}}</view>
+
+<wxs module="tools" src="tools.wxs" />
+
+<!-- 模块也得起名字  -->   <!-- module.exports 把定义的方法或数据暴露出去，指定名称-->
+<wxs module="tool">
+  function test () {
+    console.log("xxxxx-test")
+    return 'xxxxx-test'
+  }
+  module.exports = {
+    testFun: test
+  }
+</wxs>

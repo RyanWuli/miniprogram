@@ -1,0 +1,140 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": false,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": false,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.12.0",
+	"appid": "wx19bebd2cba7d7cc3",
+	"projectname": "componentDemo",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "02-text 组件",
+					"pathName": "pages/02-textDemo/02-textDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "03-image 組件",
+					"pathName": "pages/03-imageDemo/03-imageDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "04-icon 組件",
+					"pathName": "pages/04-iconDemo/04-icomDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "05-button 組件",
+					"pathName": "pages/05-buttonDemo/05-buttonDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "06-登录案例",
+					"pathName": "pages/06-demo/06-demo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "07-swiper轮播图",
+					"pathName": "pages/07-swiperDemo/07-swiperDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "08-移动组件 move",
+					"pathName": "pages/08-moveDemo/08-moveDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "09-cell 删除案例",
+					"pathName": "pages/09-cellDeleteDemo/09-cellDeleteDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "10-scrollview组件",
+					"pathName": "pages/10-scrollviewDemo/10-scrollviewDemo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "11-自定义组件",
+					"pathName": "pages/11-customWidgetDemo/11-customWidgetDemo",
+					"scene": null
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,30 @@
+/* pages/09-cellDeleteDemo/09-cellDeleteDemo.wxss */
+
+.cell {
+  height: 100rpx;
+  margin-top: 100rpx;
+  background-color: orange;
+  display: flex;
+}
+.delBtn {
+  /* height: 100rpx; */
+  width: 100rpx;
+  font-size: 22rpx;
+  line-height: 100rpx;
+}
+.ma {
+  flex: 1;
+  height: 100%;
+  background-color: orchid;
+}
+.mv {
+  height: 100%;
+  width: 100vw;
+  align-items: center;
+  padding-left: 20rpx;
+  background-color: cyan;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}

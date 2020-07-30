@@ -1,0 +1,6 @@
+<!--components/x-teacherItem/x-teacherItem.wxml-->
+<view class = "teacherItem {{isDelete ? 'deleteItem' : ''}}" bindlongtap="_deleteItem">
+  <image src="{{teacherItem.teacherImg}}" mode="aspectFill"></image> <!-- mode="aspectFit" 以长边为准进行缩放 -->
+  <text>{{teacherItem.teacherName}}</text>
+  <view class="delBtn" hidden="{{!isDelete}}" bindtap="_handlerDelete">X</view>
+</view>
