@@ -1,0 +1,8 @@
+<!--components/comment/comment.wxml-->
+<view class="comment">
+  <view class="top">
+    <image src="{{item.pic_url}}" />
+    <text>{{item.nick_name}}</text>
+  </view>
+  <text>{{item.first_comment}}</text>
+</view>

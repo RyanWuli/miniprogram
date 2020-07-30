@@ -1,0 +1,8 @@
+<!--components/goods/goods.wxml-->
+
+
+<view class="goods">
+	<image src="{{pro_item.small_image}}" />
+	<text>{{pro_item.product_name}}</text>
+	<text>￥{{pro_item.price}}</text>
+</view>

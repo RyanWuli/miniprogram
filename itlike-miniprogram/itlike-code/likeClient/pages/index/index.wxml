@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <block wx:for="{{product_list}}" wx:key="id">
+    <goods pro_item="{{item}}"/>
+  </block>
+</view>

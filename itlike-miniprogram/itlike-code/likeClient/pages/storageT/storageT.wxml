@@ -1,0 +1,4 @@
+<!--pages/storageT/storageT.wxml-->
+<image src="{{imgPath}}" bindtap="_handlerChoose">
+
+</image>

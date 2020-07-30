@@ -1,0 +1,6 @@
+<!--pages/funcCloud/funcCloud.wxml-->
+
+<block wx:for="{{comments}}" wx:key="id">
+  <comment item="{{item}}"/>
+</block>
+

@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+.container ::after {
+  content: "";
+  display: block;
+  flex: 1;
+}

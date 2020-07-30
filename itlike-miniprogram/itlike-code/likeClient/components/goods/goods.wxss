@@ -1,0 +1,17 @@
+/* components/goods/goods.wxss */
+
+.goods {
+  height: 300rpx;
+  width: 240rpx;
+  display: flex;
+  flex-direction: column;
+  border: 2rpx solid rebeccapurple;
+  box-sizing: border-box;
+  margin: 5rpx;
+}
+.goods image {
+  width: 100%;
+}
+.goods text:last-child {
+  color: red;
+}
